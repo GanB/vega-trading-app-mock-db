@@ -43,15 +43,71 @@
       "id": 7
     }
   ],
-  "userAuthorization": [{}],
-  "customer": [{}],
-  "investorProfile": [{}],
-  "address": [{}],
-  "employmentDetail": [{}],
-  "externalAccount": [{}],
-  "cashTransaction": [{}],
-  "portfolioWatchList": [{}],
-  "cashAccount": [{}],
-  "account": [{}],
-  "tradeOrder": [{}]
+  "userAuthorization": [
+    {}
+  ],
+  "customer": [
+    {}
+  ],
+  "investorProfile": [
+    {}
+  ],
+  "address": [
+    {}
+  ],
+  "employmentDetail": [
+    {}
+  ],
+  "externalAccount": [
+    {}
+  ],
+  "cashTransaction": [
+    {}
+  ],
+  "portfolioWatchList": [
+    {}
+  ],
+  "cashAccount": [
+    {}
+  ],
+  "account": [
+    {}
+  ],
+  "tradeOrder": [
+    {
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "accountId": 1,
+      "ticker": "AAPL",
+      "quantity": 10,
+      "action": "Buy",
+      "priceType": "Market",
+      "limitPrice": null,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": false,
+      "tradeDate": "2022-12-15",
+      "settlementDate": "2022-12-18",
+      "status": "submitted",
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "accountId": 1,
+      "ticker": "MSFT",
+      "quantity": 100,
+      "action": "BuyToCover",
+      "priceType": "StopOnQuote",
+      "limitPrice": null,
+      "stopPrice": 254.39,
+      "duration": "ImmediateOrCancel",
+      "allOrNone": true,
+      "tradeDate": "2022-12-15",
+      "settlementDate": "2022-12-18",
+      "status": "submitted",
+      "id": 3
+    }
+  ]
 }
