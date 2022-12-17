@@ -65,7 +65,21 @@
     {}
   ],
   "portfolioWatchList": [
-    {}
+    {
+      "id": 1,
+      "customerId": 2,
+      "ticker": "AAPL"
+    },
+    {
+      "customerId": 2,
+      "ticker": "MSFT",
+      "id": 2
+    },
+    {
+      "customerId": 2,
+      "ticker": "GE",
+      "id": 3
+    }
   ],
   "cashAccount": [
     {}
@@ -78,10 +92,11 @@
       "id": 1
     },
     {
-      "customerId": 1,
+      "customerId": 2,
       "accountId": 1,
       "ticker": "AAPL",
       "quantity": 10,
+      "type": "Stock/ETF",
       "action": "Buy",
       "priceType": "Market",
       "limitPrice": null,
@@ -90,24 +105,144 @@
       "allOrNone": false,
       "tradeDate": "2022-12-15",
       "settlementDate": "2022-12-18",
-      "status": "submitted",
+      "status": "Executed",
       "id": 2
     },
     {
-      "customerId": 1,
+      "customerId": 2,
       "accountId": 1,
       "ticker": "MSFT",
       "quantity": 100,
+      "type": "Stock/ETF",
       "action": "BuyToCover",
       "priceType": "StopOnQuote",
       "limitPrice": null,
       "stopPrice": 254.39,
       "duration": "ImmediateOrCancel",
       "allOrNone": true,
-      "tradeDate": "2022-12-15",
-      "settlementDate": "2022-12-18",
-      "status": "submitted",
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Cancelled",
       "id": 3
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "AAPL",
+      "quantity": 50,
+      "type": "Stock/ETF",
+      "action": "Sell",
+      "priceType": "Market",
+      "limitPrice": 140.5,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": false,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Completed",
+      "id": 4
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "TSLA",
+      "quantity": 30,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Limit",
+      "limitPrice": 155.76,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": true,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Cancelled",
+      "id": 5
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "AMD",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Sell",
+      "priceType": "Market",
+      "limitPrice": null,
+      "stopPrice": null,
+      "duration": "FillOrKill",
+      "allOrNone": false,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Executed",
+      "id": 6
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "MSFT",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Market",
+      "limitPrice": 0,
+      "stopPrice": 0,
+      "duration": "GoodFor60Days",
+      "allOrNone": true,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Completed",
+      "id": 7
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "PLTR",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Market",
+      "limitPrice": null,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": false,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Executed",
+      "id": 8
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "GOOG",
+      "quantity": 5,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Market",
+      "limitPrice": null,
+      "stopPrice": null,
+      "duration": "FillOrKill",
+      "allOrNone": false,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Executed",
+      "id": 9
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "NVDA",
+      "quantity": 30,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Limit",
+      "limitPrice": 168,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": false,
+      "tradeDate": "2022-12-16",
+      "settlementDate": "2022-12-19",
+      "status": "Submitted",
+      "id": 10
     }
   ]
 }
