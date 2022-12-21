@@ -67,18 +67,6 @@
   "portfolioWatchList": [
     {
       "customerId": 2,
-      "ticker": "PLTR",
-      "open": 7.02,
-      "close": 6.9,
-      "high": 7.08,
-      "low": 6.76,
-      "volume": 32655552,
-      "afterHours": 6.88,
-      "preMarket": 7,
-      "id": 6
-    },
-    {
-      "customerId": 2,
       "ticker": "AAPL",
       "open": 136.685,
       "close": 134.51,
@@ -124,13 +112,33 @@
       "afterHours": 65.33,
       "preMarket": 66,
       "id": 12
+    },
+    {
+      "customerId": 2,
+      "ticker": "TSLA",
+      "open": 154,
+      "close": 149.87,
+      "high": 155.25,
+      "low": 145.82,
+      "volume": 139390634,
+      "afterHours": 150.53,
+      "preMarket": 156.57,
+      "id": 13
     }
   ],
   "cashAccount": [
     {}
   ],
   "account": [
-    {}
+    {
+      "id": 1,
+      "customerId": 2,
+      "accountNumber": 112220309303,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    }
   ],
   "tradeOrder": [
     {
@@ -339,6 +347,91 @@
       "settlementDate": "2022-12-20",
       "status": "Cancelled",
       "id": 13
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "AAPL",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Limit",
+      "limitPrice": 130.5,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": true,
+      "tradeDate": "2022-12-20",
+      "settlementDate": "2022-12-23",
+      "status": "Submitted",
+      "id": 14
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "TSLA",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Limit",
+      "limitPrice": 150.5,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": true,
+      "tradeDate": "2022-12-20",
+      "settlementDate": "2022-12-23",
+      "status": "Submitted",
+      "id": 15
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "HPQ",
+      "quantity": 20,
+      "type": "Stock/ETF",
+      "action": "Sell",
+      "priceType": "Market",
+      "limitPrice": null,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": false,
+      "tradeDate": "2022-12-20",
+      "settlementDate": "2022-12-23",
+      "status": "Executed",
+      "id": 16
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "TSLA",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Market",
+      "limitPrice": null,
+      "stopPrice": null,
+      "duration": "GoodForDay",
+      "allOrNone": true,
+      "tradeDate": "2022-12-20",
+      "settlementDate": "2022-12-23",
+      "status": "Executed",
+      "id": 17
+    },
+    {
+      "customerId": 2,
+      "accountId": 1,
+      "ticker": "AMD",
+      "quantity": 10,
+      "type": "Stock/ETF",
+      "action": "Sell",
+      "priceType": "Limit",
+      "limitPrice": 63.5,
+      "stopPrice": null,
+      "duration": "GoodFor60Days",
+      "allOrNone": false,
+      "tradeDate": "2022-12-20",
+      "settlementDate": "2022-12-23",
+      "status": "Cancelled",
+      "id": 18
     }
   ]
 }
