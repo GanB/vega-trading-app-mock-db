@@ -90,40 +90,16 @@
       "id": 8
     },
     {
-      "customerId": 2,
-      "ticker": "HPQ",
-      "open": 26.63,
-      "close": 26.72,
-      "high": 26.88,
-      "low": 26.41,
-      "volume": 17947150,
-      "afterHours": 26.72,
-      "preMarket": 26.48,
-      "id": 11
-    },
-    {
-      "customerId": 2,
-      "ticker": "AMD",
-      "open": 66.25,
-      "close": 65.41,
-      "high": 67.19,
-      "low": 64.8,
-      "volume": 62438574,
-      "afterHours": 65.33,
-      "preMarket": 66,
-      "id": 12
-    },
-    {
-      "customerId": 2,
-      "ticker": "TSLA",
-      "open": 154,
-      "close": 149.87,
-      "high": 155.25,
-      "low": 145.82,
-      "volume": 139390634,
-      "afterHours": 150.53,
-      "preMarket": 156.57,
-      "id": 13
+      "customerId": 3,
+      "ticker": "MSFT",
+      "open": 223,
+      "close": 224.93,
+      "high": 225.7601,
+      "low": 219.35,
+      "volume": 43613574,
+      "afterHours": 225.04,
+      "preMarket": 222.47,
+      "id": 9
     }
   ],
   "cashAccount": [
@@ -132,8 +108,62 @@
   "account": [
     {
       "id": 1,
-      "customerId": 2,
+      "customerId": 1,
       "accountNumber": 112220309303,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "accountNumber": 112220309304,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "accountNumber": 112220309305,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    },
+    {
+      "id": 4,
+      "customerId": 4,
+      "accountNumber": 112220309306,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    },
+    {
+      "id": 5,
+      "customerId": 5,
+      "accountNumber": 112220309307,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    },
+    {
+      "id": 6,
+      "customerId": 6,
+      "accountNumber": 112220309308,
+      "netAccountValue": 100000,
+      "totalCashPurchasingPower": 10000,
+      "settled": 1000,
+      "unSettled": 0
+    },
+    {
+      "id": 7,
+      "customerId": 7,
+      "accountNumber": 112220309309,
       "netAccountValue": 100000,
       "totalCashPurchasingPower": 10000,
       "settled": 1000,
@@ -360,9 +390,9 @@
       "stopPrice": null,
       "duration": "GoodForDay",
       "allOrNone": true,
-      "tradeDate": "2022-12-20",
-      "settlementDate": "2022-12-23",
-      "status": "Submitted",
+      "tradeDate": "2023-01-07",
+      "settlementDate": "2023-01-10",
+      "status": "Cancelled",
       "id": 14
     },
     {
@@ -432,6 +462,23 @@
       "settlementDate": "2022-12-23",
       "status": "Cancelled",
       "id": 18
+    },
+    {
+      "customerId": 3,
+      "accountId": 1,
+      "ticker": "MSFT",
+      "quantity": 20,
+      "type": "Stock/ETF",
+      "action": "Buy",
+      "priceType": "Limit",
+      "limitPrice": 230,
+      "stopPrice": null,
+      "duration": "GoodFor60Days",
+      "allOrNone": true,
+      "tradeDate": "2023-01-07",
+      "settlementDate": "2023-01-10",
+      "status": "Submitted",
+      "id": 19
     }
   ]
 }
