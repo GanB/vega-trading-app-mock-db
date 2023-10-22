@@ -1,2 +1,2 @@
-# nss-frontend-capstone-trading-app-mock-db
-nss-frontend-capstone-trading-app-mock-db
+# vega-trading-app-mock-db
+vega-trading-app-mock-db
